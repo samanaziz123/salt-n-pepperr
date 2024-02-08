@@ -1,0 +1,980 @@
+@font-face {
+    font-family: "futurak" ;
+    src: url(../Font/futurak.ttf);
+}
+@font-face {
+    font-family: "Apercu" ;
+    src: url(../Font/Apercu/Apercu\ Light.otf);
+}
+@font-face {
+    font-family: "butler" ;
+    src: url(../Font/butler/Butler_Black.otf);
+}
+
+html{
+    overflow-x: hidden;
+}
+body{
+    overflow-x: hidden;
+    margin: 0;
+    background-color: #000000;
+}
+
+/* header */
+
+
+.image {
+    max-width: 100%;
+}
+
+.header{
+    display: flex;
+    width: auto;
+    border-bottom: 1px solid rgb(255 255 255 / 8%);
+    background-color: #000000;
+    align-items: center;
+    margin: 10px 200px;
+    justify-content: center;
+}
+
+.header .logo {
+    width: 165px;
+    height: 75px;
+}
+
+.nav-box {
+    width: 75%;
+}
+
+.nav-box ul {
+    display: flex;
+    color: #fff;
+    flex-wrap: wrap;
+    padding: 0 0px 0 0px;
+    list-style: none;
+    justify-content: end;
+    align-items: center;
+}
+
+.logo-box {
+    width: 20%;
+}
+
+
+.nav-box ul li a {
+    color: #ffffff;
+    padding: 17px 36px 0px 0px;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.header .header-button {
+    margin: 0px 12px 0px 0px;
+    border-radius: 35px;
+    border: 1px solid #fff;
+    color: rgb(255, 255, 255);
+    padding: 20px 16.5px 20px 16.5px;
+    font-size: 14px;
+    font-weight: 400;
+    background: transparent;
+}
+.header .red-button {
+    background-color: #ed1c24;
+    border-radius: 35px;
+    border: 1px solid #ed1c24;
+    color: #ffffff;
+    padding: 20px 13.5px 20px 13.5px;
+    font-size: 14px;
+    font-weight: 400;
+}
+.header .red-button i {
+    background-color: #fff;
+    color: #dc3545;
+    padding: 6px 7px;
+    border-radius: 23px;
+    margin-left: 7px;
+}
+/* header */
+
+/* banner slider */
+.slider .slider-image {
+    width: 100%;
+}
+/* banner slider */
+
+/* brand section */
+.brand-section {
+    display: block;
+    width: 100%;
+    padding: 0px 15px 0px 15px;
+    padding-top: 70px;
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 70px;
+}
+.brand-section .wrapper {
+    margin: 0 250px;
+}
+.brand-section .main_custom_heading-second {
+    text-align: center;
+}
+.brand-section .main_custom_heading-second h2 {
+    font-family: 'Apercu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 8px;
+    margin-top: 0;
+}
+.brand-section span.logo-text-hold {
+    font-family: 'futurak';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 62px;
+    color: #FFFFFF;
+}
+.brand-section .main_custom_heading-second p {
+    font-family: 'Apercu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 40px;
+}
+.brand-section .brand-boxes ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+.brand-section .brand-boxes ul li {
+    text-align: -webkit-center;
+}
+.brand-section .brand-boxes ul li .brand-box {
+    background: #fff;
+    margin: 10px 20px;
+    padding: 20px;
+    border-radius: 3px;
+}
+.brand-section .brand-boxes ul li a.brandbuton {
+    display: block;
+    width: 174px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 50px;
+    color: #FFFFFF;
+    margin: auto;
+    margin-top: 24px;
+    font-family: 'Apercu';
+    text-decoration: none;
+}
+/* brand section */
+
+.franchises-area {
+    position: relative;
+    background: rgba(255, 255, 255, 0.06);
+    padding: 70px;
+}
+.franchises-area .wrapper {
+    margin: 0 100px;
+}
+.franchises-area .main_custom_heading {
+    text-align: center;
+}
+.franchises-area .main_custom_heading h2 {
+    text-align: center;
+    margin-bottom: 8px;
+    font-family: 'butler';
+    font-style: normal;
+    font-size: 48px;
+    line-height: 60px;
+    color: #FFFFFF;
+    margin-bottom: 8px;
+}
+.franchises-area .main_custom_heading span.logo-text-hold {
+    font-family: 'futurak';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 62px;
+    color: #FFFFFF;
+}
+.franchises-area .main_custom_heading p {
+    font-family: 'Apercu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 48px;
+}
+.franchises-area .franchise-line {
+    display: flex;
+    margin-bottom: 80px;
+}
+.franchises-area .franchise-text small {
+    font-family: 'Apercu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.48em;
+    text-transform: uppercase;
+    color: #ED1C24;
+    margin-bottom: 8px;
+    display: block;
+}
+
+.franchises-area .franchise-text h3 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+    font-family: 'apercu';
+}
+.franchises-area .franchise-text p {
+    font-family: 'Apercu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 10px;
+}
+.franchises-area .franchise-text p a {
+    font-family: 'Apercu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+}
+.franchises-area .franchise-line .box {
+    width: 50%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.franchises-area .franchise-line .box .franchise-home-box-img img {
+    max-width: 100%;
+}
+
+.franchises-area .franchise-line .box a.btn.btn-holds {
+    display: block;
+    width: 174px;
+    height: auto;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+    margin-top: 40px;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px;
+}
+.franchises-area .franchise-line .box a.btn.btn-holds .arrow-one {
+    padding: 8px 8px 6px;
+}
+.franchises-area .franchise-line .box a.btn.btn-holds span.arrow-one i {
+    background-color: #fff;
+    color: #dc3545;
+    padding: 2px 8px;
+    border-radius: 30px;
+    line-height: 25px;
+    margin-left: 0;
+}
+.franchises-area .franchise-line .franchise-text span.logo-text-hold-second {
+    font-family: 'futurak';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/* express franchsie */
+.express-francchise {
+    text-align: center;
+    padding: 70px 0px 38px;
+    position: relative;
+}
+.express-francchise .wrapper {
+    margin: 0 100px;
+}
+.express-francchise h2 {
+    text-align: center;
+    margin-bottom: 8px;
+    font-family: 'Apercu';
+    font-style: normal;
+    font-size: 48px;
+    line-height: 60px;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+.express-francchise h2 span.logo-text-hold {
+    font-family: 'futurak';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 62px;
+    color: #FFFFFF;
+}
+
+.express-francchise .express-franhise-line ul {
+    padding: 0;
+    display: flex;
+    list-style: none;
+}
+
+.express-francchise .express-franhise-line ul li {
+    width: 33.33%;
+}
+
+.express-francchise .express-franhise-line ul li .new-card-box-hold img {
+    max-width: 100%;
+    width: 100%;
+    height: 250px;
+}
+
+.express-francchise .express-franhise-line ul li .box {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 20px;
+}
+.express-francchise .express-franhise-line ul li .box small {
+    font-family: 'Apercu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.48em;
+    text-transform: uppercase;
+    color: #ED1C24;
+    text-align: center;
+    margin-bottom: 8px;
+    display: block;
+    margin-top: 24px;
+}
+.express-francchise .express-franhise-line ul li .box h3 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 18px;
+    font-family: 'Apercu';
+}
+.express-francchise .express-franhise-line ul li .box h3 span{
+    font-family: 'futurak';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.express-francchise .express-franhise-line ul li .box p{
+    font-family: 'Apercu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 12px;
+}
+.express-francchise .express-franhise-line ul li .box p a{
+    font-family: 'Apercu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 12px;
+    text-decoration: none;
+}
+.express-francchise .express-franhise-line ul li .box a.btn.btn-holds {
+    display: block;
+    width: 174px;
+    height: auto;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+    FONT-VARIANT: JIS83;
+    margin-top: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: 0 auto;
+    text-decoration: none;
+}
+.express-francchise .express-franhise-line ul li .box a.btn.btn-holds .arrow-one {
+    padding: 8px 8px 6px;
+}
+.express-francchise .express-franhise-line ul li .box a.btn.btn-holds .arrow-one {
+    background-color: #fff;
+    color: #dc3545;
+    width: 27px;
+    height: 27px;
+    padding: 5px 8px;
+    border-radius: 30px;
+    margin-left: 10px;
+}
+/* express franchsie */
+
+
+/* village franchsie */
+.franchises-area-village {
+    position: relative;
+    background: rgba(255, 255, 255, 0.06);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.franchises-area-village .main_custom_heading {
+    text-align: center;
+}
+.franchises-area-village .main_custom_heading h2 {
+    text-align: center;
+    margin-bottom: 8px;
+    font-family: 'butler';
+    font-style: normal;
+    font-size: 48px;
+    line-height: 60px;
+    color: #FFFFFF;
+    margin-bottom: 50px;
+}
+.franchises-area-village .main_custom_heading span.logo-text-hold {
+    font-family: 'futurak';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 62px;
+    color: #FFFFFF;
+}
+.franchises-area-village .main_custom_heading p {
+    font-family: 'Apercu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 48px;
+}
+.franchises-area-village .franchise-line {
+    display: flex;
+    margin-bottom: 80px;
+    align-items: center;
+}
+.franchises-area-village .franchise-text small {
+    font-family: 'Apercu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.48em;
+    text-transform: uppercase;
+    color: #ED1C24;
+    margin-bottom: 8px;
+    display: block;
+}
+
+.franchises-area-village .franchise-text h3 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+    font-family: 'apercu';
+}
+.franchises-area-village .franchise-text p {
+    font-family: 'Apercu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 10px;
+}
+.franchises-area-village .franchise-text p a {
+    font-family: 'Apercu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+}
+.franchises-area-village .franchise-line .lftbox {
+    width: 50%;
+}
+.franchises-area-village .franchise-line .lftbox img {
+    max-width: 100%;
+}
+.franchises-area-village .franchise-line .rghtbox {
+    width: 50%;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.franchises-area-village .franchise-line .box .franchise-home-box-img img {
+    max-width: 100%;
+}
+
+.franchises-area-village .franchise-line .box a.btn.btn-holds {
+    display: block;
+    width: 174px;
+    height: auto;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+    margin-top: 40px;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px;
+}
+.franchises-area-village .franchise-line .box a.btn.btn-holds .arrow-one {
+    padding: 8px 8px 6px;
+}
+.franchises-area-village .franchise-line .box a.btn.btn-holds span.arrow-one i {
+    background-color: #fff;
+    color: #dc3545;
+    padding: 2px 8px;
+    border-radius: 30px;
+    line-height: 25px;
+    margin-left: 0;
+}
+.franchises-area-village .franchise-line .franchise-text span.logo-text-hold-second {
+    font-family: 'futurak';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.franchises-area-village .franchise-line a.btn.btn-holds {
+    display: block;
+    width: 174px;
+    height: auto;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 40px;
+    background-color: #28a745;
+    border: 1px solid #28a745 !important;
+    text-align: center;
+    text-decoration: none;
+}
+.franchises-area-village .franchise-line a.btn.btn-holds span.arrow-one {
+    background-color: #fff;
+    color: #28a745;
+    width: 27px;
+    height: 27px;
+    padding: 9px 9px 6px;
+    border-radius: 30px;
+    margin-left: 10px;
+}
+/* village franchsie */
+
+/* opening soon */
+
+.express-francchise-open-soon {
+    text-align: center;
+    padding: 70px 0px 38px;
+    position: relative;
+}
+.express-francchise-open-soon .wrapper {
+    margin: 0 100px;
+}
+.express-francchise-open-soon h2 small {
+    font-style: normal;
+    font-size: 26px;
+    line-height: 31px;
+    color: #FFFFFF;
+}
+.express-francchise-open-soon h2 {
+    text-align: center;
+    margin-bottom: 8px;
+    font-family: 'butler';
+    font-style: normal;
+    font-size: 48px;
+    line-height: 60px;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+.express-francchise-open-soon h2 span.logo-text-hold {
+    font-family: 'futurak';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 62px;
+    color: #FFFFFF;
+}
+
+.express-francchise-open-soon .express-franhise-line ul {
+    padding: 0;
+    display: flex;
+    list-style: none;
+}
+
+.express-francchise-open-soon .express-franhise-line ul li {
+    width: 33.33%;
+}
+
+.express-francchise-open-soon .express-franhise-line ul li .new-card-box-hold img {
+    max-width: 100%;
+    width: 100%;
+    height: 250px;
+}
+
+.express-francchise-open-soon .express-franhise-line ul li .box {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 20px;
+}
+.express-francchise-open-soon .express-franhise-line ul li .box small {
+    font-family: 'Apercu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.48em;
+    text-transform: uppercase;
+    color: #ED1C24;
+    text-align: center;
+    margin-bottom: 8px;
+    display: block;
+    margin-top: 24px;
+}
+.express-francchise-open-soon .express-franhise-line ul li .box h3 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 18px;
+    font-family: 'Apercu';
+}
+.express-francchise-open-soon .express-franhise-line ul li .box h3 span{
+    font-family: 'futurak';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.express-francchise-open-soon .express-franhise-line ul li .box p{font-style: normal;font-weight: 400;font-size: 21px;line-height: 29px;text-align: center;color: #000000;margin: 0;font-family: 'futurak';}
+.express-francchise-open-soon .express-franhise-line ul li .box p a{
+    font-family: 'Apercu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 12px;
+    text-decoration: none;
+}
+.express-francchise-open-soon .express-franhise-line ul li .box a.btn.btn-holds {
+    display: block;
+    width: 174px;
+    height: auto;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+    FONT-VARIANT: JIS83;
+    margin-top: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: 0 auto;
+    text-decoration: none;
+}
+.express-francchise-open-soon .express-franhise-line ul li .box a.btn.btn-holds .arrow-one {
+    padding: 8px 8px 6px;
+}
+.express-francchise-open-soon .express-franhise-line ul li .box a.btn.btn-holds .arrow-one {
+    background-color: #fff;
+    color: #dc3545;
+    width: 27px;
+    height: 27px;
+    padding: 5px 8px;
+    border-radius: 30px;
+    margin-left: 10px;
+}
+.express-francchise-open-soon .express-franhise-line ul li .box .location-card-box-h {
+    height: 230px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    text-align: center;
+    padding: 25px 24px;
+    margin: auto;
+    margin-bottom: 32px;
+}
+.express-francchise-open-soon .express-franhise-line ul li .box .location-card-box-h h4 {
+    font-family: 'futurak';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 30px;
+    text-align: center;
+    color: #000000;
+    margin: 0;
+}
+.express-francchise-open-soon .express-franhise-line ul li .box .location-card-box-h h4 span {
+    font-weight: 600;
+    margin-right: 8px;
+    font-size: 24px;
+}
+/* opening soon */
+
+/* social feed */
+.social-feed {
+    padding-bottom: 60px;
+}
+.social-feed .insta_feeds_heading {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 32px;
+}
+.social-feed .insta_feeds_heading h3 {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    font-family: 'butler';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 50px;
+    color: #FFFFFF;
+}
+.social-feed .items ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+.social-feed .items ul li img {
+    max-width: 100%;
+}
+.social-feed .items ul li {
+    margin: 0 10px;
+}
+/* social feed */
+
+/* footer */
+footer .wrapper {
+    margin: 0 150px;
+}
+.footer {
+    display: flex;
+}
+.footer .footbox1 {
+    width: 30%;
+}
+.footer .footbox2 {
+    width: 25%;
+}
+.footer .footbox3 {
+    width: 25%;
+}
+.footer .footbox4 {
+    width: 20%;
+}
+
+.footer .footbox h4 {
+    margin-bottom: 0px !important;
+    font-family: 'butler';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.footer .footbox ul.footer_detail_box_content_list {
+    padding: 0;
+    list-style: none;
+}
+
+.footer .footbox ul.footer_detail_box_content_list li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 0px 5px;
+    padding-bottom: 16px;
+}
+.footer .footbox ul.footer_detail_box_content_list li a {
+    font-family: 'Apercu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7) !important;
+    text-decoration: none;
+}
+.footbox.footbox1 p {
+    margin: 0px !important;
+    padding-bottom: 24px;
+    padding-right: 0px;
+    text-align: left;
+    font-family: 'Apercu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+}
+.footer .footbox4 ul.download-blist {
+    padding: 0;
+    list-style: none;
+}
+
+.footer .footboxx {
+    padding: 0 30px;
+}
+
+.footbox.footbox1 ul {
+    padding: 0;
+    display: flex;
+}
+
+.footbox.footbox1 ul li {
+    margin: 0 10px 0 0;
+}
+
+.footbox.footbox1 ul li a {
+    font-family: 'Apercu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.footbox.footbox4 ul.sociallinks-list {
+    padding: 0;
+    display: flex;
+    list-style: none;
+}
+
+.footbox.footbox4 ul.sociallinks-list li {
+    margin: 0 10px 0 0px;
+}
+
+.footbox.footbox4 ul.sociallinks-list li a {
+    display: flex;
+    align-items: center;
+    margin-right: 8px;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background: #ED1C24;
+    color: #fff;
+    border-radius: 50px;
+    text-decoration: none;
+}
+
+.bottomlinetext {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.bottomline .linebox {
+    width: 50%;
+}
+
+.bottomline .copy_right_text1 {
+    font-family: 'Apercu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+}
+.copy_right_text {
+    font-family: 'Apercu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+    text-align: -webkit-right;
+}
+
+.bottomline {
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+.copy_right_text span a {
+    font-family: 'Apercu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+}
+/* footer */
+
+
+.franchises-area .absolteimage {
+    position: absolute;
+    right: 50px;
+    top: 50px;
+}
+
+.express-francchise img.redshadowabs {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
